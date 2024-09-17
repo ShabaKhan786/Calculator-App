@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(32,33,36);
+}
+
+
+.container{
+
+    width: 360px;
+    height: 80vh;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid gray;
+    border-radius: 15px;
+    
+}
+.button-grid{
+    flex-grow: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+}
+input{
+    flex-grow: 1;
+    background-color: rgb(32,33,36);
+    color: white;
+    text-align: right;
+    font-size: 60px;
+    outline: none;
+    border: none;
+    padding: 0 16px;
+}
+
+button{
+    border-radius: 50%;
+    width: 70%;
+    height: 85%;
+    border: none;
+    font-size: 27px;
+    cursor: pointer;
+    background-color: rgb(44, 45, 49);
+    color: white;
+    place-self: center;
+
+    box-shadow: -8px -8px 10px rgba(58, 60, 64);
+
+}
+
+.grey-btn{
+background-color: rgb(187, 184, 184);
+color: green
+}
+
+.yello-btn{
+    background-color:rgb(209, 142, 17) ;
+}
+
+.zero{
+    width: 95%;
+    height: 75%;
+    grid-column:  span 2;
+    border-radius: 75px;
+}
+
+
+
+
+
+
+
+
